@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import axios from "axios";
 import InputConvert from "./InputConvert"; // Componente
 import { FaExchangeAlt } from "react-icons/fa"; // Icono
 import "./Convert.css"; // Estilos
@@ -7,6 +6,7 @@ import "./Convert.css"; // Estilos
 
 export default function Convert() {
   const [coin, setCoin] = useState([])
+  // el estado inicial de los inputs se define en btc y eth 
   const [selCoin1, setSelCoin1] = useState("btc")
   const [selCoin2, setSelCoin2] = useState("eth")
   const [mainTxt, setMainTxt] = useState(0)

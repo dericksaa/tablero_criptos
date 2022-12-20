@@ -2,6 +2,11 @@ import React from "react";
 import "./tableCoins.css";
 import CoinRow from "./CoinRow";
 
+// Se importa a coinRaw donde tenemos la estructura de cada una de las fila de 
+// la tabla de criptos, en la estructura definimos primero los títulos de cada columna. 
+
+// solo recibe una prop que es las monedas con las que vamos a llenar la tabla 
+
 function TableCoins({ coins }) {
   console.log(coins);
   return (

@@ -1,6 +1,10 @@
 import './Footer.css';
 import LogoSaa from './img/LogoSaa.svg';
 
+// en footer solo importamos la imagen del lodo dev y los estilos y creamos la 
+// estructura de footer en el return como un html normal. 
+
+
 const Footer = () => {
     return (
         <div className="Footer">

@@ -1,0 +1,23 @@
+.coin_image_container{
+    width: 140px;
+    margin: auto;
+}
+.coin_image_container img{
+    height: 40px;
+    margin-left: 2%;
+}
+.table_coins td{
+    text-align: center;
+    padding: 15px 0;
+}
+.table_coins thead td, .table_coins tbody td:first-of-type{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.table_coins tbody td:not(:first-of-type){
+    font-size: 1.1rem;
+}
+td .graph{
+    width: 80%;
+    margin: auto;
+}

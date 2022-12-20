@@ -1,0 +1,63 @@
+.cripto-first{
+    background: #02735E;
+    width: 95%;
+    max-width:600px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-arrow{
+    transform: rotate(90deg);
+    font-size: 12px;
+    padding: 5px;
+}
+
+.cripto-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cripto-title h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+.cripto-title img{
+    width: 50px;
+}
+.cripto-title h2:last-of-type{
+    background:white;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cripto-first .graphic{
+    position: relative;
+    height: 250px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.graphic .graph{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.capitalization h2{
+    margin-bottom: 20px;
+}
+.capitalization-table{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin-bottom: 20px;
+}

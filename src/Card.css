@@ -1,0 +1,62 @@
+.card{
+    display: grid;
+    grid: 1fr / 100px 1fr;
+    place-items: center;
+    gap: 10px;
+    background-color: #02735E;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.card img{
+    width: 100px;
+}
+.con-main{
+    place-self: stretch;
+    display: grid;
+    grid: 30px 1fr / 1fr;
+}
+.con-main .graph{
+    width: 70%;
+    height: 90%;
+    place-self: end center ;
+    background: white;
+    border-radius: 5px;
+    margin: 0;
+}
+.graph canvas{
+    height: 100%;
+}
+.con-title{
+    display: grid;
+    grid: 1fr / 1fr 80px;
+}
+.con-title h2{
+    align-self: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 1rem;
+    color: white;
+}
+.porcentajes{
+    place-self: stretch;
+    display: grid;
+    place-items: center;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.img{
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
